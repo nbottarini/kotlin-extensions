@@ -7,8 +7,8 @@ plugins {
     id("io.github.gradle-nexus.publish-plugin") version "1.1.0"
 }
 
-val nexusUsername: String by project
-val nexusPassword: String by project
+val nexusUsername: String? by project
+val nexusPassword: String? by project
 
 group = "com.nbottarini"
 version = "1.0"
