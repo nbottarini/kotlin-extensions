@@ -94,12 +94,12 @@ users.each { println(it.name)}
 
 ## String Extensions
 
-- `fun String.camelToSnakeCase(): String`
+- `fun String.toSnakeCase(): String`
 - `fun String?.throwIfNullOrBlank(block: () -> Throwable)`
 - `fun String.lastWord()`
 
 ```kotlin
-"myName".camelToSnakeCase() // returns "my_name"
+"myName".toSnakeCase() // returns "my_name"
 email.throwIfNullOrBlan { EmailRequiredError() }
 "Some sentence".lastWord() // returns "sentence"
 ```
