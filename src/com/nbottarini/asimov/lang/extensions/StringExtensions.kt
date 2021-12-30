@@ -5,7 +5,7 @@ fun String.camelToSnakeCase(): String {
     return camelRegex.replace(this) { "_${it.value}" }.lowercase()
 }
 
-fun String?.ifNullOrBlank(block: () -> Throwable) {
+fun String?.throwIfNullOrBlank(block: () -> Throwable) {
     if (this == null || this.isBlank()) block()
 }
 
