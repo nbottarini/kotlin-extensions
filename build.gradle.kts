@@ -88,17 +88,6 @@ publishing {
                     developerConnection.set("scm:git:ssh://github.com/asimov-kotlin-extensions.git")
                     url.set("https://github.com/nbottarini/asimov-kotlin-extensions")
                 }
-
-//                repositories {
-//                    maven {
-//                        credentials {
-//                            username = nexusUsername
-//                            password = nexusPassword
-//                            name = "Sonatype"
-//                            url = uri("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2")
-//                        }
-//                    }
-//                }
             }
         }
     }

@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.nbottarini:asimov-kotlin-extensions:1.0")
+    implementation("com.nbottarini:asimov-kotlin-extensions:1.0.1")
 }
 ```
 
@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.nbottarini:asimov-kotlin-extensions:1.0'
+    implementation 'com.nbottarini:asimov-kotlin-extensions:1.0.1'
 }
 ```
 
@@ -37,7 +37,7 @@ dependencies {
 <dependency>
     <groupId>com.nbottarini</groupId>
     <artifactId>asimov-kotlin-extensions</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
