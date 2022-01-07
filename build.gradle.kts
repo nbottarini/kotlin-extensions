@@ -11,7 +11,7 @@ val nexusUsername: String? by project
 val nexusPassword: String? by project
 
 group = "com.nbottarini"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -39,6 +39,8 @@ kotlin {
 java {
     withJavadocJar()
     withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 
     sourceSets["main"].apply {
         java.srcDirs("src")
