@@ -1,4 +1,4 @@
-package com.nbottarini.asimov.lang.extensions.io
+package dev.botta.lang.extensions.io
 
 import java.io.InputStream
 

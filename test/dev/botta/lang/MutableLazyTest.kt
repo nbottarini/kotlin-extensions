@@ -1,6 +1,6 @@
 @file:Suppress("UNUSED_VARIABLE")
 
-package com.nbottarini.asimov.lang
+package dev.botta.lang
 
 import org.assertj.core.api.Assertions
 import org.assertj.core.api.Assertions.assertThat

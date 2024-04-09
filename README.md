@@ -1,9 +1,9 @@
-[![Maven](https://img.shields.io/maven-central/v/com.nbottarini/asimov-kotlin-extensions.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.nbottarini%22%20AND%20a%3A%22asimov-kotlin-extensions%22)
+[![Maven](https://img.shields.io/maven-central/v/dev.botta/kotlin-extensions.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22dev.botta%22%20AND%20a%3A%22kotlin-extensions%22)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI Status](https://github.com/nbottarini/asimov-kotlin-extensions/actions/workflows/gradle.yml/badge.svg?branch=main)](https://github.com/nbottarini/asimov-kotlin-extensions/actions?query=branch%3Amain+workflow%3Aci)
+[![CI Status](https://github.com/nbottarini/kotlin-extensions/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/nbottarini/kotlin-extensions/actions?query=branch%3Amain+workflow%3Aci)
 
-# asimov/kotlin-extensions
-Useful Kotlin extensions. Part of Asimov collection of libraries.
+# Kotlin Extensions
+Useful Kotlin extensions
 
 ## Installation
 
@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.nbottarini:asimov-kotlin-extensions:1.0.2")
+    implementation("dev.botta:kotlin-extensions:1.0.2")
 }
 ```
 
@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.nbottarini:asimov-kotlin-extensions:1.0.2'
+    implementation 'dev.botta:kotlin-extensions:1.0.2'
 }
 ```
 
@@ -35,8 +35,8 @@ dependencies {
 
 ```xml
 <dependency>
-    <groupId>com.nbottarini</groupId>
-    <artifactId>asimov-kotlin-extensions</artifactId>
+    <groupId>dev.botta</groupId>
+    <artifactId>kotlin-extensions</artifactId>
     <version>1.0.2</version>
 </dependency>
 ```

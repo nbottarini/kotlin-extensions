@@ -1,3 +1,3 @@
-package com.nbottarini.asimov.lang
+package dev.botta.lang
 
 typealias DetailsExt<T> = T.() -> Unit

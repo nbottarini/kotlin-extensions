@@ -1,4 +1,4 @@
-package com.nbottarini.asimov.lang.extensions
+package dev.botta.lang.extensions
 
 fun String.toSnakeCase(): String {
     val camelRegex = "(?<=[a-zA-Z])[A-Z]".toRegex()

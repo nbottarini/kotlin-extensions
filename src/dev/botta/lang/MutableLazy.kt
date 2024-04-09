@@ -1,6 +1,6 @@
 @file:Suppress("NOTHING_TO_INLINE", "ClassName", "UNCHECKED_CAST")
 
-package com.nbottarini.asimov.lang
+package dev.botta.lang
 
 import kotlin.reflect.KProperty
 

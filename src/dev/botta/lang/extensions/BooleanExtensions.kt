@@ -1,4 +1,4 @@
-package com.nbottarini.asimov.lang.extensions
+package dev.botta.lang.extensions
 
 fun Boolean.ifTrue(block: () -> Unit) {
     if (this) block()

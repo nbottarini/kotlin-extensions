@@ -1,3 +1,3 @@
-package com.nbottarini.asimov.lang.extensions
+package dev.botta.lang.extensions
 
 fun List<Any>.stringArray() = this.map { it.toString() }.toTypedArray()

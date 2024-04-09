@@ -1,4 +1,4 @@
-package com.nbottarini.asimov.lang.extensions
+package dev.botta.lang.extensions
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
